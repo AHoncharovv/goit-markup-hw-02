@@ -3,11 +3,11 @@
   --title-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
+  --button-color: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
-  background-color: yellow;
 }
 .visually-hidden {
   position: absolute;
@@ -33,12 +33,14 @@ body {
 }
 .button {
   color: var(--title-color);
+  font-family: inherit;
+  background-color: var(--button-color);
 }
 
 /*-------------Header-----------------*/
 .logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -86,7 +88,7 @@ body {
   color: var(--hero-color);
 }
 .hero-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -96,7 +98,7 @@ body {
 }
 /*---------------Benefits---------------------*/
 .benefits-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -111,7 +113,7 @@ body {
 }
 /*------------------Examples------------------*/
 .examples-item {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -120,7 +122,7 @@ body {
 }
 /*------------------Team--------------------------*/
 .team-item {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -146,6 +148,7 @@ body {
 .footer {
   background-color: var(--title-color);
 }
+
 .address {
   font-size: 14px;
   line-height: 1.71;
@@ -157,6 +160,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hero-color);
+}
+address {
+  font-style: inherit;
 }
 /*----------------Portfolio----------------*/
 .product-button {
@@ -174,7 +188,7 @@ body {
   color: var(--text-color);
 }
 .product-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
