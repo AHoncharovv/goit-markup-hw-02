@@ -7,7 +7,6 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
-  background-color: yellow;
 }
 .visually-hidden {
   position: absolute;
